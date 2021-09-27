@@ -70,16 +70,12 @@ a:hover {
 .bg4 {
   background-image: url(../images/bg4_2.png);
 }
-
-.bg5 {
-  background-image: url(../images/bg5_2.png);
-}
 .price:hover {
   background-image: url(../images/price-bg2.png);
 }
-/* .user-comment:before {
-  background-image: url(../images/comm2.png);
-} */
+.user-comment:before {
+  /* background-image: url(../images/comm2.png); */
+}
 .testimonial-nav:after {
   background: linear-gradient(320deg, #1c7bff 0%, #9d6fff 100%);
 }
