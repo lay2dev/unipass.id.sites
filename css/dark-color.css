@@ -42,8 +42,8 @@ p,
 
 .banner-text > a:hover,
 .about-list > a:hover {
-  background-color: #907bf6;
   color: #fff;
+  background: transparent;
   border-color: transparent;
 }
 .about-list > a,
@@ -81,7 +81,7 @@ a:hover {
   background-image: url(../images/comm2.png);
 } */
 .testimonial-nav:after {
-  background-color: #3179ff;
+  background: linear-gradient(320deg, #1c7bff 0%, #9d6fff 100%);
 }
 .bg6 {
   background-image: url(../images/bg6_2.png);
@@ -95,7 +95,7 @@ a:hover {
 }
 .contact-form form input,
 .contact-form form textarea {
-  background-color: #131317;
+  background-color: #353541;
   box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.35);
   color: #fff;
 }
@@ -121,7 +121,7 @@ a:hover {
 }
 
 .testimonial-nav:before {
-  background-color: #484848;
+  background-color: transparent;
 }
 header.sticky {
   background-color: #353541;

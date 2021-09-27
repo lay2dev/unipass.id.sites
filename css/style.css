@@ -392,7 +392,7 @@ a:hover {
   letter-spacing: 1px;
   line-height: 70px;
   padding: 0 100px;
-  border: 2px solid;
+  border: 2px solid #ffffff;
   text-transform: uppercase;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
@@ -400,6 +400,7 @@ a:hover {
   -o-border-radius: 20px;
   border-radius: 20px;
   display: inline-block;
+  background: linear-gradient(320deg, #1c7bff 0%, #9d6fff 100%);
 }
 .banner-imgs {
   float: left;
@@ -444,7 +445,17 @@ header.sticky {
   width: 100%;
 }
 .logo {
+  display: flex;
+  align-items: center;
   float: left;
+  font-size: 24px;
+  font-weight: 600;
+  color: #f4f5f6;
+}
+.logo img {
+  width: 32px;
+  height: 32px;
+  margin-right: 8px;
 }
 nav {
   float: right;
@@ -627,6 +638,7 @@ nav ul li a {
   -o-border-radius: 20px;
   border-radius: 20px;
   line-height: 70px;
+  background: linear-gradient(320deg, #1c7bff 0%, #9d6fff 100%);
 }
 
 /* ================== services-sec ================ */
@@ -879,7 +891,8 @@ nav ul li a {
   -o-transform: translateX(-50%);
   transform: translateX(-50%);
   width: 117px;
-  height: 3px;
+  height: 6px;
+  border-radius: 4px;
 }
 .user-info {
   float: left;
