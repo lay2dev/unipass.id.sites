@@ -632,6 +632,7 @@ nav ul li a {
   float: left;
   width: 80%;
   position: relative;
+  padding-left: 60px;
   z-index: 99;
 }
 .about-list > a {
@@ -662,6 +663,7 @@ nav ul li a {
   float: left;
   width: 100%;
   padding-top: 60px;
+  padding-left: 60px;
 }
 .service-details {
   float: left;
@@ -686,8 +688,8 @@ nav ul li a {
   padding: 0 !important;
 }
 .service-img {
-  float: left;
-  width: 60%;
+  /* float: left;
+  width: 60%; */
   position: relative;
 }
 .service-img > img {
