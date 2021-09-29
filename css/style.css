@@ -272,7 +272,6 @@ nav ul li a,
 }
 .roadmap .road-map img {
   width: 100%;
-  max-width: 900px;
 }
 .latest-news {
   padding: 120px 0 200px 0;
@@ -621,11 +620,16 @@ nav ul li a {
 }
 .about-num span {
   display: inline-block;
-  font-size: 60px;
+  font-size: 48px;
   font-weight: 900;
 }
+.abt-info h1 {
+  font-size: 44px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
 .abt-info h3 {
-  font-size: 36px;
+  font-size: 32px;
   font-weight: 700;
   margin-bottom: 15px;
 }
@@ -673,7 +677,7 @@ nav ul li a {
 }
 .service-details > span {
   float: left;
-  font-size: 60px;
+  font-size: 40px;
 }
 .service-info {
   float: left;
@@ -681,7 +685,7 @@ nav ul li a {
   padding-left: 18px;
 }
 .service-info h3 {
-  font-size: 36px;
+  font-size: 32px;
   font-weight: 700;
   margin-bottom: 15px;
 }
