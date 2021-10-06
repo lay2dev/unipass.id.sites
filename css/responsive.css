@@ -144,7 +144,7 @@
     padding-top: 28px;
   }
   .roadmap {
-    padding: 40px 0 340px 0;
+    padding: 40px 0 140px 0;
   }
   .heading h3 {
     font-size: 40px;
@@ -305,6 +305,9 @@
   .abt-info {
     width: 100%;
     margin-top: 20px;
+  }
+  .abt-info h1 {
+    font-size: 36px;
   }
   .custom-container {
     padding: 0 15px;
